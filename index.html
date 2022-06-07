@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Moscowqual</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="ractangle">
+            <a href="#"><img src="images/logo.png" alt="Error" class="logo"></a>
+            <div class="logo-text mg-07">
+                <h3>Moscowqual</h3>
+                <h5>Ремонт бытовой техники</h5>
+            </div>
+            <div class="our-online-pages mg-1">
+                <a href="https://instagram.com"><img class="small-images mg-03" src="images/instagram.png"
+                        alt="Error"></a>
+                <a href="https://vk.com"><img class="small-images mg-03" src="images/vk.png" alt="Error"></a>
+                <a href="https://telegram.org"><img class="small-images mg-03" src="images/telegram.png"
+                        alt="Error"></a>
+                <a href="https://whatsapp.com"><img class="small-images mg-03" src="images/whatsapp.png"
+                        alt="Error"></a>
+            </div>
+            <img class="small-images mg-07" src="images/clock.png" alt="Error">
+            <h3>Режим работы</h3>
+            <div class="time-of-work mg-1">
+                <h5>ПН-ПТ с 07:00 до 24:00</h5>
+                <h5>Сб, ВС: с 07:00 до 24:00</h5>
+            </div>
+            <img class="small-images mg-07" src="images/telephone.png" alt="Error">
+            <h5>+7(495) 755 69 83</h5>
+            <a data-modal-target="#modal" class="call-us mg-1">Заказать звонок</a>
+            <div class="hamburger-btn">
+                <a href="#" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="modal" id="modal">
+            <div class="modal-header">
+                <button data-close-btn class="close-btn">&#10540;</button>
+            </div>
+            <div class="modal-body">
+                <input id="name" placeholder="Enter your name" type="text" />
+                <h5 class="err-message-for-name"></h5>
+                <input id="number" placeholder="Enter your number" type="number" />
+                <h5 class="err-message-for-number"></h5>
+                <button id="sendMessage" class="call-me">Перезвонит мне</button>
+                <p>Мастер перезвонит в течение 15 мин</p>
+            </div>
+        </div>
+        <div id="overlay"></div>
+
+        <div class="repair-wash-machines">
+            <nav class="navbar margin-dives">
+                <div class="main-nav">
+                    <ul id="activate-list">
+                        <li id="home"><a href="index.html">Главная</a></li>
+                        <li id="services-and-prices"><a href="servicesAndPrices.html">Услуги и цены</a></li>
+                        <li id="guarantee"><a href="guarantee.html">Гарантия</a></li>
+                        <li id="yur-lits"><a href="yurLists.html">Юр.лица</a></li>
+                        <li id="contact"><a href="contact.html">Контакты</a></li>
+                        <li id="ques-answers"><a href="answer-question.html">Вопрос-ответ</a></li>
+                        <li id="helpfull-info"><a href="helpfullInfo.html">Полезная информация</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <h1 class="firebase-message margin-dives"></h1>
+
+
+            <div class="order-to-repair margin-dives">
+                <h1>Ремонт стиральных машин <br> в Москве</h1>
+                <ul>
+                    <li>Отличные цены на запчасти</li>
+                    <li>Фирменная гарантия на все работы</li>
+                    <li>Ремонт в день обращения</li>
+                </ul>
+                <a data-modal-target="#modal" class="order-btn">Заказать ремонт</a>
+            </div>
+
+            <div class="cards margin-dives">
+                <div class="card1">
+                    <div class="rounded-card">
+                        <img src="./images/60-minutes.png" alt="Error">
+                    </div>
+                    <p class="card-text">Выезд мастера в
+                        течение 60 мин.</p>
+                </div>
+                <div class="card2">
+                    <div class="rounded-card">
+                        <img src="./images/interactive.png" alt="Error">
+                    </div>
+                    <p class="card-text">Бесплатная экспресс-
+                        диагностика</p>
+                </div>
+                <div class="card3">
+                    <div class="rounded-card">
+                        <img src="./images/quality.png" alt="Error">
+                    </div>
+                    <p class="card-text">Ремонт оригинальными
+                        комплектующими</p>
+                </div>
+                <div class="card4">
+                    <div class="rounded-card">
+                        <img src="./images/guarantee.png" alt="Error">
+                    </div>
+                    <p class="card-text">Гарантия каждому
+                        владельцу до 2-х лет</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="answers-to-question-page">
+            <img class="answers-img1" src="./images/askprice.png" alt="Error">
+            <img class="answers-img2" src="./images/askpricestar.png" alt="Error">
+            <div class="answers">
+                <h2>Ответьте на вопросы и узнайте точную
+                    стоимость ремонта вашей машинки</h2>
+                <p>Мы перезвоним Вам и подробно проконсультируем
+                    по всем вопросам по ремонту стиральной машинки</p>
+                <a href="./servicesAndPrices.html">Узнать стоимость</a>
+            </div>
+        </div>
+
+
+        <div class="price-of-repairing margin-dives">
+            <img class="sloy21" src="./images/sloy21.png" alt="">
+            <h2>Стоимость услуг</h2>
+            <p class="text-diag"><span>Диагностика</span></p>
+            <div class="diagnostics">
+                <div class="diagnostic-item1">
+                    <div class="diagnostic-card">
+                        <img src="./images/price11.png" alt="Error">
+                        <span>0 <br> руб</span>
+                    </div>
+                    <p>Диагностика при
+                        последующем ремонте</p>
+                </div>
+                <div class="diagnostic-item2">
+                    <div class="diagnostic-card">
+                        <img src="./images/price2.png" alt="Error">
+                        <span>400 <br> руб</span>
+                    </div>
+                    <p>Диагностика без
+                        последующего ремонта</p>
+                </div>
+            </div>
+
+
+            <!-- Prices table -->
+            <div class="prices-table">
+                <p class="price_for_repair">Цены на ремонт</p>
+                <div class="table-row">
+                    <div>
+                        <p>Течет стиральная машина</p>
+                        <p>Ремонт от <span>100 руб</span></p>
+                        <p><a data-modal-target="#modal" class="btn">Заказать мастера</a></p>
+                    </div>
+                    <div>
+                        <p>Не открывается люк</p>
+                        <p>Ремонт от <span>120 руб</span></p>
+                        <p><a data-modal-target="#modal" class="btn">Заказать мастера</a></p>
+                    </div>
+                    <div>
+                        <p>Не греет воду</p>
+                        <p>Ремонт от <span>300 руб</span></p>
+                        <p><a data-modal-target="#modal" class="btn">Заказать мастера</a></p>
+                    </div>
+                    <div>
+                        <p>Стиральная машина не
+                            отжимает</p>
+                        <p>Ремонт от <span>250 руб</span></p>
+                        <p><a data-modal-target="#modal" class="btn">Заказать мастера</a></p>
+                    </div>
+                    <div>
+                        <p>Не работает слив
+                            в стиральной машине</p>
+                        <p>Ремонт от <span>500 руб</span></p>
+                        <p><a data-modal-target="#modal" class="btn">Заказать мастера</a></p>
+                    </div>
+                    <div>
+                        <p>Не вращается барабан</p>
+                        <p>Ремонт от <span>800 руб</span></p>
+                        <p><a data-modal-target="#modal" class="btn">Заказать мастера</a></p>
+                    </div>
+                    <div>
+                        <a class="more-about-washmachines" href="#">Подробные цены на ремонт стиральных машин</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- Quick repair page -->
+            <div class="quick-repair">
+                <h2>Выполняем срочный ремонт <br> поломки, которые мастер устранит за <span>25 минут</span></h2>
+                <div class="repair-requirements">
+                    <div class="requirements">
+                        <div class="require">
+                            <div>
+                                <img src="./images/power 1.png" alt="Error">
+                            </div>
+                            <p>Не включается стиральная машина</p>
+                        </div>
+                        <div class="require">
+                            <div>
+                                <img src="./images/water-drop 1.png" alt="Error">
+                            </div>
+                            <p>Течет стиральная машина</p>
+                        </div>
+                        <div class="require">
+                            <div>
+                                <img src="./images/washing-machine-2 1.png" alt="Error">
+                            </div>
+                            <p>Не открывается дверка</p>
+                        </div>
+                        <div class="require">
+                            <div>
+                                <img src="./images/washing-machine-3 1.png" alt="Error">
+                            </div>
+                            <p>Не работает отжим в машинке</p>
+                        </div>
+                        <div class="require">
+                            <div>
+                                <img src="./images/warning 1.png" alt="Error">
+                            </div>
+                            <p>Не завершает процесс стирки</p>
+                        </div>
+                    </div>
+                    <img class="two-wash-machines" src="./images/25mins.png" alt="Error">
+                    <img class="starts-img" src="./images/sloy21.png" alt="Error">
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+        <div class="call-to-us-parent-cont">
+            <div class="call-to-us-child-cont margin-dives">
+                <h3 class="call-main-text">НЕ ЗНАЕТЕ ЧТО СЛОМАЛОСЬ? <br><span>
+                        СРОЧНЫЙ ВЫЗОВ МАСТЕРА НА ДОМ </span>
+                </h3>
+                <p class="call-main-p">Качественно устраним любые поломки вашей стиральной машины</p>
+                <div class="call-cards">
+                    <img class="smaller-washer" src="./images/small-washer.png" alt="Error">
+                    <div class="call-card">
+                        <div class="row">
+                            <img src="./images/star.png" alt="Error">
+                            <h3>Быстро</h3>
+                        </div>
+                        <div class="row">
+                            <img src="./images/star.png" alt="Error">
+                            <h3>Дешево</h3>
+                        </div>
+                        <div class="row">
+                            <img src="./images/star.png" alt="Error">
+                            <h3>Качественно</h3>
+                        </div>
+                        <div class="row">
+                            <img class="unvisible-image" src="./images/star.png" alt="Error">
+                            <h3>Прямой телефон</h3>
+                        </div>
+                        <div class="row">
+                            <h2>+7(495) 755 69 83</h2>
+                        </div>
+                    </div>
+                    <form class="call-card2">
+                        <h5 class="call-card2-header">КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТА И <br>
+                            РАССЧЕТ СТОИМОСТИ РЕМОНТА</h5>
+                        <input id="name" type="text" placeholder="ВАШ ИМЯ" />
+                        <h5 class="err-message-for-name"></h5>
+                        <input id="number" type="number" placeholder="ВАШ НОМЕР ТЕЛЕФОНА" />
+                        <h5 class="err-message-for-number"></h5>
+                        <button type="submit" id="sendMessage">Перезвоните мне</button>
+                        <p>Мастер перезвонит в течение 15 мин</p>
+                    </form>
+                    <img class="bigger-washer" src="./images/bigger-wahs.png" alt="Error">
+                </div>
+            </div>
+        </div>
+
+        <div class="quality-guarantee-parent-cont">
+            <div class="quality-guarantee-child-cont margin-dives">
+                <h3 class="guarantee-100">100% ГАРАНТИЯ КАЧЕСТВА</h3>
+                <div class="guarantee-row">
+                    <h3 class="why-us">Почему мы?</h3>
+                    <div class="g-row">
+                        <img src="./images/star.png" alt="Error">
+                        <p>Работаем без выходных и праздников</p>
+                    </div>
+                    <div class="g-row">
+                        <img src="./images/star.png" alt="Error">
+                        <p>Отличные цены за ремонт в Москве</p>
+                    </div>
+                    <div class="g-row">
+                        <img src="./images/star.png" alt="Error">
+                        <p>Мы устанавливаем только оригинальные запчасти</p>
+                    </div>
+                    <div class="g-row">
+                        <img src="./images/star.png" alt="Error">
+                        <p>Принимаем в ремонт все модели и устраняем <br>
+                            неисправности любой сложности</p>
+                    </div>
+                    <h2 class="moscowqual-text">Сервисный центр «Moscowqual» <br>
+                        предоставляет клиентам сразу две гарантии:</h2>
+                    <div class="guarantee-card">
+                        <div>
+                            <img src="./images/guarantee.png" alt="Error">
+                        </div>
+                        <p>Гарантия на ремонт до 2-х лет</p>
+                    </div>
+                    <div class="guarantee-card">
+                        <div>
+                            <img src="./images/quality.png" alt="Error">
+                        </div>
+                        <p>Гарантия на запчасти до 2-х лет</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="slider-comments margin-dives">
+            <h2 class="slider-header-text">ОТЗЫВЫ НАШИХ КЛИЕНТОВ</h2>
+            <p>Наши клиенты всегда остаются довольны нашими услугами! <br>
+                Лучше всего они скажут об этом сами!</p>
+            <img class="slider-star-img" src="./images/sloy21.png" alt="Error">
+            <div class="comment-card-cont">
+
+                <div class="prev">
+                    <img src="./images/arrow1.png" alt="Error">
+                </div>
+
+                <div class="slider-visible-cont">
+                    <div class="slider-unvisible-items">
+                        <div class="comment-card">
+                            <div class="comment-card-header">
+                                <img src="./images/feed1.png" alt="Error">
+                                <div class="name-and-date">
+                                    <h4>Елизавета</h4>
+                                    <p>18 января 2021</p>
+                                </div>
+                                <img src="./images/vk-rect.png" alt="Error">
+                                <img src="./images/facebook.png" alt="">
+                            </div>
+                            <div class="comment-card-body">
+                                <p>
+                                    Идейные соображения высшего порядка, а также реализация
+                                    намеченных плановых заданий обеспечивает широкому кругу
+                                    (специалистов) участие в формировании направлений
+                                    прогрессивного развития.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="comment-card">
+                            <div class="comment-card-header">
+                                <img src="./images/feed2.png" alt="Error">
+                                <div class="name-and-date">
+                                    <h4>Елизавета</h4>
+                                    <p>18 ноября 2020</p>
+                                </div>
+                                <img src="./images/vk-rect.png" alt="Error">
+                                <img src="./images/facebook.png" alt="">
+                            </div>
+                            <div class="comment-card-body">
+                                <p>
+                                    Идейные соображения высшего порядка, а также реализация
+                                    намеченных плановых заданий обеспечивает широкому кругу
+                                    (специалистов) участие в формировании направлений
+                                    прогрессивного развития.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="comment-card">
+                            <div class="comment-card-header">
+                                <img src="./images/feed3.png" alt="Error">
+                                <div class="name-and-date">
+                                    <h4>Елизавета</h4>
+                                    <p>18 января 2021</p>
+                                </div>
+                                <img src="./images/vk-rect.png" alt="Error">
+                                <img src="./images/facebook.png" alt="">
+                            </div>
+                            <div class="comment-card-body">
+                                <p>
+                                    Идейные соображения высшего порядка, а также реализация
+                                    намеченных плановых заданий обеспечивает широкому кругу
+                                    (специалистов) участие в формировании направлений
+                                    прогрессивного развития.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="comment-card">
+                            <div class="comment-card-header">
+                                <img src="./images/feed2.png" alt="Error">
+                                <div class="name-and-date">
+                                    <h4>Елизавета</h4>
+                                    <p>18 ноября 2020</p>
+                                </div>
+                                <img src="./images/vk-rect.png" alt="Error">
+                                <img src="./images/facebook.png" alt="">
+                            </div>
+                            <div class="comment-card-body">
+                                <p>
+                                    Идейные соображения высшего порядка, а также реализация
+                                    намеченных плановых заданий обеспечивает широкому кругу
+                                    (специалистов) участие в формировании направлений
+                                    прогрессивного развития.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="comment-card">
+                            <div class="comment-card-header">
+                                <img src="./images/feed1.png" alt="Error">
+                                <div class="name-and-date">
+                                    <h4>Елизавета</h4>
+                                    <p>18 января 2021</p>
+                                </div>
+                                <img src="./images/vk-rect.png" alt="Error">
+                                <img src="./images/facebook.png" alt="">
+                            </div>
+                            <div class="comment-card-body">
+                                <p>
+                                    Идейные соображения высшего порядка, а также реализация
+                                    намеченных плановых заданий обеспечивает широкому кругу
+                                    (специалистов) участие в формировании направлений
+                                    прогрессивного развития.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="comment-card">
+                            <div class="comment-card-header">
+                                <img src="./images/feed3.png" alt="Error">
+                                <div class="name-and-date">
+                                    <h4>Елизавета</h4>
+                                    <p>18 января 2021</p>
+                                </div>
+                                <img src="./images/vk-rect.png" alt="Error">
+                                <img src="./images/facebook.png" alt="">
+                            </div>
+                            <div class="comment-card-body">
+                                <p>
+                                    Идейные соображения высшего порядка, а также реализация
+                                    намеченных плановых заданий обеспечивает широкому кругу
+                                    (специалистов) участие в формировании направлений
+                                    прогрессивного развития.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="comment-card">
+                            <div class="comment-card-header">
+                                <img src="./images/feed2.png" alt="Error">
+                                <div class="name-and-date">
+                                    <h4>Елизавета</h4>
+                                    <p>18 ноября 2020</p>
+                                </div>
+                                <img src="./images/vk-rect.png" alt="Error">
+                                <img src="./images/facebook.png" alt="">
+                            </div>
+                            <div class="comment-card-body">
+                                <p>
+                                    Идейные соображения высшего порядка, а также реализация
+                                    намеченных плановых заданий обеспечивает широкому кругу
+                                    (специалистов) участие в формировании направлений
+                                    прогрессивного развития.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="comment-card">
+                            <div class="comment-card-header">
+                                <img src="./images/feed3.png" alt="Error">
+                                <div class="name-and-date">
+                                    <h4>Елизавета</h4>
+                                    <p>18 января 2021</p>
+                                </div>
+                                <img src="./images/vk-rect.png" alt="Error">
+                                <img src="./images/facebook.png" alt="">
+                            </div>
+                            <div class="comment-card-body">
+                                <p>
+                                    Идейные соображения высшего порядка, а также реализация
+                                    намеченных плановых заданий обеспечивает широкому кругу
+                                    (специалистов) участие в формировании направлений
+                                    прогрессивного развития.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="next">
+                    <img src="./images/Arrow 2.png" alt="Error">
+                </div>
+            </div>
+            <div class="slider-counter">
+                <p><span class="counter">3</span> из <span class="max-num">8</span></p>
+            </div>
+        </div>
+
+
+        <div class="get-discount-page">
+            <div class="get-discount-cont margin-dives">
+                <h3 class="guarantee-100">НЕ ТЕРЯЙТЕ ВРЕМЯ <br>
+                    ПОЛУЧИТЕ СКИДКУ 10%</h3>
+                <p class="discount-p">Мы работаем в Москве и в Московской области</p>
+                <div class="call-card2">
+                    <h5 class="call-card2-header">КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТА И <br>
+                        РАССЧЕТ СТОИМОСТИ РЕМОНТА</h5>
+                    <input id="name" type="text" placeholder="ВАШ ИМЯ" />
+                    <h5 class="err-message-for-name"></h5>
+                    <input id="number" type="number" placeholder="ВАШ НОМЕР ТЕЛЕФОНА" />
+                    <h5 class="err-message-for-number"></h5>
+                    <button type="submit" id="sendMessage">Перезвоните мне</button>
+                    <p>Мастер перезвонит в течение 15 мин</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="footer">
+            <div class="footer-header">
+                <img src="./images/logo.png" alt="Error">
+                <p><b>Moscowqual</b><br> Ремонт бытовой техники</p>
+                <ul id="activate-list">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="servicesAndPrices.html">Услуги и цены</a> </li>
+                    <li><a href="guarantee.html">Гарантия</a></li>
+                    <li><a href="yurLists.html">Юр.лица</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                    <li><a href="answer-question.html">Вопрос-ответ</a></li>
+                    <li><a href="helpfullInfo.html">Полезная информация</a></li>
+                </ul>
+            </div>
+            <div class="footer-social-media">
+                <p>Полезная информация</p>
+                <div class="our-online-pages mg-1">
+                    <a href="https://instagram.com"><img class="small-images mg-03" src="images/instagram.png"
+                            alt="Error"></a>
+                    <a href="https://vk.com"><img class="small-images mg-03" src="images/vk.png" alt="Error"></a>
+                    <a href="https://telegram.org"><img class="small-images mg-03" src="images/telegram.png"
+                            alt="Error"></a>
+                    <a href="https://whatsapp.com"><img class="small-images mg-03" src="images/whatsapp.png"
+                            alt="Error"></a>
+                </div>
+            </div>
+            <div class="footer-contact-us">
+                <div class="contact-us-row">
+                    <img class="small-images mg-07" src="images/clock.png" alt="Error">
+                    <h3>Режим работы</h3>
+                    <div class="time-of-work mg-1">
+                        <h5>ПН-ПТ с 07:00 до 24:00</h5>
+                        <h5>Сб, ВС: с 07:00 до 24:00</h5>
+                    </div>
+                </div>
+                <div class="contact-us-row">
+                    <p>
+                        © 2021
+                        sitename.ru <br>
+                        Все права защищены
+                    </p>
+                </div>
+                <div class="contact-us-row">
+                    <img class="small-images mg-07" src="images/telephone.png" alt="Error">
+                    <h5>+7(495) 755 69 83</h5>
+                    <a data-modal-target="#modal" class="call-us mg-1">Заказать звонок</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script type="module" src="./js/firebase.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

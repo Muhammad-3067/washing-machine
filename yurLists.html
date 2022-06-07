@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/yurlits.css">
+    <title>Moscowqual</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="ractangle">
+            <a href="#"><img src="images/logo.png" alt="Error" class="logo"></a>
+            <div class="logo-text mg-07">
+                <h3>Moscowqual</h3>
+                <h5>Ремонт бытовой техники</h5>
+            </div>
+            <div class="our-online-pages mg-1">
+                <a href="https://instagram.com"><img class="small-images mg-03" src="images/instagram.png"
+                        alt="Error"></a>
+                <a href="https://vk.com"><img class="small-images mg-03" src="images/vk.png" alt="Error"></a>
+                <a href="https://telegram.org"><img class="small-images mg-03" src="images/telegram.png"
+                        alt="Error"></a>
+                <a href="https://whatsapp.com"><img class="small-images mg-03" src="images/whatsapp.png"
+                        alt="Error"></a>
+            </div>
+            <img class="small-images mg-07" src="images/clock.png" alt="Error">
+            <h3>Режим работы</h3>
+            <div class="time-of-work mg-1">
+                <h5>ПН-ПТ с 07:00 до 24:00</h5>
+                <h5>Сб, ВС: с 07:00 до 24:00</h5>
+            </div>
+            <img class="small-images mg-07" src="images/telephone.png" alt="Error">
+            <h5>+7(495) 755 69 83</h5>
+            <a data-modal-target="#modal" class="call-us mg-1">Заказать звонок</a>
+            <div class="hamburger-btn">
+                <a href="#" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="modal" id="modal">
+            <div class="modal-header">
+                <button data-close-btn class="close-btn">&#10540;</button>
+            </div>
+            <div class="modal-body">
+                <input id="name" placeholder="Enter your name" type="text" />
+                <h5 class="err-message-for-name"></h5>
+                <input id="number" placeholder="Enter your number" type="number" />
+                <h5 class="err-message-for-number"></h5>
+                <button id="sendMessage" class="call-me">Перезвонит мне</button>
+                <p>Мастер перезвонит в течение 15 мин</p>
+            </div>
+        </div>
+        <div id="overlay"></div>
+
+        <div class="repair-wash-machines margin-dives">
+            <nav class="navbar">
+                <div class="main-nav">
+                    <ul id="activate-list">
+                        <li id="home"><a href="index.html">Главная</a></li>
+                        <li id="services-and-prices"><a href="servicesAndPrices.html">Услуги и цены</a></li>
+                        <li id="guarantee"><a href="guarantee.html">Гарантия</a></li>
+                        <li id="yur-lits"><a href="yurLists.html">Юр.лица</a></li>
+                        <li id="contact"><a href="contact.html">Контакты</a></li>
+                        <li id="ques-answers"><a href="answer-question.html">Вопрос-ответ</a></li>
+                        <li id="helpfull-info"><a href="helpfullInfo.html">Полезная информация</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <h1 class="firebase-message"></h1>
+
+
+            <div class="our-services">
+                <h4>Главная &xrarr; <span class="path">Для Юридических лиц</span></h4>
+                <img class="sloy21" src="./images/sloy21.png" alt="Error">
+                <h2>Для Юридических лиц</h2>
+                <h3 class="our-services-text">Ремонт техники по безналичному расчету</h3>
+                <div class="g-row">
+                    <img src="./images/star.png" alt="Error">
+                    <p>Вы оставляете заявку на требуемую услугу по телефону, либо Заполните бриф.
+                    </p>
+                </div>
+                <div class="g-row">
+                    <img src="./images/star.png" alt="Error">
+                    <p> Наш специалист созванивается с Вами для уточнения всех деталей и назначает точное время приезда.
+                    </p>
+                </div>
+                <div class="g-row">
+                    <img src="./images/star.png" alt="Error">
+                    <p> Мы выставим Вам счет по электронной почте на вызов мастера и диагностику.</p>
+                </div>
+                <div class="g-row">
+                    <img src="./images/star.png" alt="Error">
+                    <p> После оплаты мастер приедет, определит неисправность и озвучит стоимость ремонта.</p>
+                </div>
+                <div class="g-row">
+                    <img src="./images/star.png" alt="Error">
+                    <p> Если ремонт возможен и рентабелен, то Вы подписываете с мастером гарантийное письмо и оплатите
+                        счет после проведения всех работ и получения документов.</p>
+                </div>
+                <div class="g-row">
+                    <img src="./images/star.png" alt="Error">
+                    <p> После совершения ремонта вы получаете бланк строгой отчетности (БСО), в которой мастер укажет
+                        гарантию на ремонт, рекомендации и скидку на дальнейшее сотрудничество.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="order-to-master margin-dives">
+            <img class="order-page-star" src="./images/sloy21.png" alt="Error">
+            <h2>Вызов мастера</h2>
+            <input type="text" placeholder="Название компании, ИНН:">
+            <input type="text" placeholder="Ваш номер телефона:">
+            <input type="text" placeholder="E-mail, для отправки копии счёта:">
+            <input type="text" placeholder="Фактический адрес:">
+            <input type="text" placeholder="Вид техники:">
+            <input type="text" placeholder="Модель:">
+            <textarea type="text" placeholder="Что случилось?"></textarea>
+            <p class="text-gray"><i>Нажав кнопку «Заказать ремонт», я даю согласие на обработку моих персональных
+                    данных.</i></p>
+            <a href="#">Заказать ремонт</a>
+            <img class="order-page-price-star" src="./images/askpricestar.png" alt="Error">
+        </div>
+
+
+        <div class="quality-guarantee-parent-cont">
+            <div class="quality-guarantee-child-cont margin-dives">
+                <h3 class="guarantee-100">100% ГАРАНТИЯ КАЧЕСТВА</h3>
+                <div class="guarantee-row">
+                    <h3 class="why-us">Почему мы?</h3>
+                    <div class="g-row">
+                        <img src="./images/star.png" alt="Error">
+                        <p>Работаем без выходных и праздников</p>
+                    </div>
+                    <div class="g-row">
+                        <img src="./images/star.png" alt="Error">
+                        <p>Отличные цены за ремонт в Москве</p>
+                    </div>
+                    <div class="g-row">
+                        <img src="./images/star.png" alt="Error">
+                        <p>Мы устанавливаем только оригинальные запчасти</p>
+                    </div>
+                    <div class="g-row">
+                        <img src="./images/star.png" alt="Error">
+                        <p>Принимаем в ремонт все модели и устраняем <br>
+                            неисправности любой сложности</p>
+                    </div>
+                    <h2 class="moscowqual-text">Сервисный центр «Moscowqual» <br>
+                        предоставляет клиентам сразу две гарантии:</h2>
+                    <div class="guarantee-card">
+                        <div>
+                            <img src="./images/guarantee.png" alt="Error">
+                        </div>
+                        <p>Гарантия на ремонт до 2-х лет</p>
+                    </div>
+                    <div class="guarantee-card">
+                        <div>
+                            <img src="./images/quality.png" alt="Error">
+                        </div>
+                        <p>Гарантия на запчасти до 2-х лет</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <div class="footer-header">
+                <img src="./images/logo.png" alt="Error">
+                <p><b>Moscowqual</b><br> Ремонт бытовой техники</p>
+                <ul id="activate-list">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="servicesAndPrices.html">Услуги и цены</a> </li>
+                    <li><a href="guarantee.html">Гарантия</a></li>
+                    <li><a href="yurLists.html">Юр.лица</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                    <li><a href="answer-question.html">Вопрос-ответ</a></li>
+                    <li><a href="helpfullInfo.html">Полезная информация</a></li>
+                </ul>
+            </div>
+            <div class="footer-social-media">
+                <p>Полезная информация</p>
+                <div class="our-online-pages mg-1">
+                    <a href="https://instagram.com"><img class="small-images mg-03" src="images/instagram.png"
+                            alt="Error"></a>
+                    <a href="https://vk.com"><img class="small-images mg-03" src="images/vk.png" alt="Error"></a>
+                    <a href="https://telegram.org"><img class="small-images mg-03" src="images/telegram.png"
+                            alt="Error"></a>
+                    <a href="https://whatsapp.com"><img class="small-images mg-03" src="images/whatsapp.png"
+                            alt="Error"></a>
+                </div>
+            </div>
+            <div class="footer-contact-us">
+                <div class="contact-us-row">
+                    <img class="small-images mg-07" src="images/clock.png" alt="Error">
+                    <h3>Режим работы</h3>
+                    <div class="time-of-work mg-1">
+                        <h5>ПН-ПТ с 07:00 до 24:00</h5>
+                        <h5>Сб, ВС: с 07:00 до 24:00</h5>
+                    </div>
+                </div>
+                <div class="contact-us-row">
+                    <p>
+                        © 2021
+                        sitename.ru <br>
+                        Все права защищены
+                    </p>
+                </div>
+                <div class="contact-us-row">
+                    <img class="small-images mg-07" src="images/telephone.png" alt="Error">
+                    <h5>+7(495) 755 69 83</h5>
+                    <a data-modal-target="#modal" class="call-us mg-1">Заказать звонок</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <script type="module" src="./js/firebase.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
